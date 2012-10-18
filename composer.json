@@ -1,0 +1,24 @@
+{
+  "name": "ajgl/cpm-bundle",
+  "type": "symfony-bundle",
+  "description": "Manages the javascript dependencies with CPM",
+  "keywords": ["javascript", "cpm", "dojo", "dgrid", "bundle", "symfony"],
+  "homepage": "https://github.com/ajgl/AjglCpmBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio J. García Lagar",
+      "email": "aj@garcialagar.es",
+      "homepage": "http://aj.garcialagar.es",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": ">=2.0,<2.2-dev"
+  },
+  "autoload": {
+    "psr-0": { "Ajgl\\Bundle\\CpmBundle": "" }
+  },
+  "target-dir": "Ajgl/Bundle/CpmBundle"
+}
